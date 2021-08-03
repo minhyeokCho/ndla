@@ -123,7 +123,7 @@
 .briefHeader .searchBtns ul {display: inline-block;}
 .briefHeader .searchBtns ul li{display: inline-block; padding-left: 30px; position: relative;}
 .briefHeader .searchBtns ul li::after{display: block; content: ''; position: absolute; left: 15px; top: 6px; width: 1px; height: 11px; background: #bdbdbd;}
-.briefHeader .searchBtns ul li a{display: block; color: #333333;}
+.briefHeader .searchBtns ul li a{color: #333333;}
 .briefHeader .sortOptions select{margin-right: 6px;}
 @media screen and (max-width:719px){
     .briefHeader{display: block; padding: 10px 14px;}

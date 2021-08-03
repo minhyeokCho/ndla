@@ -77,7 +77,7 @@
 
 /* 논문제출 form */
 .termsBx{margin-bottom: 40px;}
-.termsTit{float: left; margin-bottom: 12px; text-align: left; color: #191919; font-size: 18px; padding-left: 16px;}
+.termsTit{margin-bottom: 12px; text-align: left; color: #191919; font-size: 18px; padding-left: 16px;}
 .article{margin-bottom: 16px; height: 150px; overflow-y: auto; border: 1px solid #d8d8d8; border-radius: 3px; padding: 24px 16px; box-sizing: border-box;}
 .article p{color: #6d6d6d;} 
 .article.cclBox1{overflow: auto; height: auto; float: left; width: calc(50% - 12px);}
@@ -109,6 +109,7 @@
 .caution2{margin-left: 28px; display: inline-block; color: #ef3370;}
 
 .thesisTable{margin-bottom: 20px; text-align: right;}
+.thesisTable > .termsTit{float: left;}
 .thesisTable .point{color: #ed145b;}
 .thesisTable table{border: 1px solid #d8d8d8; border-radius: 3px;}
 .thesisTable table tr th{color: #555; vertical-align: middle; background: #fbfbfb; padding: 16px 12px; border-bottom: 1px solid #e3e3e3;}
