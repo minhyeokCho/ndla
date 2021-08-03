@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.tabMenu2{border-bottom: 1px solid #e2e2e2;}
+.tabMenu2 li{display: inline-block; margin-left: 24px;}
+.tabMenu2 li a{color: #333333; font-size: 16px; display: inline-block; padding: 12px;}
+.tabMenu2 li.selected a{border-bottom: 2px solid #032258;}
+
+.advancedSearchW{background: #f3f3f3; border: 1px solid #e3e3e3; border-radius: 3px;  margin-bottom: 50px;}
+.advancedSearch{padding: 25px 210px 10px 210px;}
+.advancedSearch .advanceTit{display: block; width: 160px; margin-bottom: 4px; color: #384655; font-size: 16px;}
+.advancedSearch .searchKeyword{margin-bottom: 16px;}
+.advancedSearchW .buttons{text-align: center;}
+.item{position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between;}
+.inputSearchKeyword{width: 100%; margin: 0 8px;}
+.item .selectBoolean{min-width: 100px;}
+.searchLimit{margin: 8px 0;}
+.searchLimit ul li{display: inline-block; position: relative; margin-right: 28px; margin-bottom: 5px;}
+.searchLimit ul li:last-of-type{margin-right: 0;}
+.searchLimit ul li input[type="checkbox"]{position: absolute; left: 0; top: 4px;}
+.searchLimit ul li label{padding-left: 25px; color: #555555;}
+.searchLimit .datePicker{width: 155px;}
+
+@media screen and (max-width:1200px){
+    .advancedSearch{padding: 20px 60px 0;}
+}
+@media screen and (max-width:719px){
+    .advancedSearch{padding: 20px 15px 0;}
+    .item{display: block;}
+    .item .selectSearchItem{display: block; width: 100%;}
+    .inputSearchKeyword, .item .selectBoolean{display: inline-block;}
+    .inputSearchKeyword{width: 70%; margin-left: 0; margin-right: 4px;}
+}
+@media screen and (max-width:499px){
+    .tabMenu2 li{margin-left: 8px;}
+    .tabMenu2 li a{padding: 12px 8px;}
+    .item .inputSearchKeyword{width: 57%; margin-left: 0;}
+    .searchLimit .datePicker{width: 121px;}
+}

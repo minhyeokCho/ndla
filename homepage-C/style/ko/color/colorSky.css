@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/* 상단고정 */
+.header2.fixed{background: rgba(51, 74, 189, 0.95);}
+.header.topMenuOn{background: rgba(51, 74, 189, 0.95)}
+
+/* Top Menu */
+#divTopMenu > ul > li > a:hover{color: #65eafb !important;}
+#divTopMenu > ul > li.on > a{color: #65eafb !important;}
+#divTopMenu > ul > li > a::before{background:#65eafb;}
+#divTopMenu > ul > li .menuContent > ul > li:hover > a{border: 1px solid #334abd; background-color: #334abd;}
+#divTopMenu > ul > li .menuContent > ul > li .menuList ul li a:hover{color: #334abd;}
+#divTopMenu > ul > li .menuContent > ul > li .menuList ul li a:hover::after{background: #334abd;}
+/* myMenu */
+.header1 .globalMenu > ul > li.profile .myMenuBtn{background-color: #00136f;}
+
+/* wholeMenu */
+@media screen and (min-width:1025px){
+    .divMenuList > ul > li > a::after{ background: #334abd;}
+    .divMenuList > ul > li > div > ul > li > ul > li > a:hover{color: #334abd;}
+}
+@media screen and (max-width:1024px){
+    .divMenuList > ul{background: #334abd;}
+    .divMenuList > ul > li > a{color: #c9caf1;}
+    .divMenuList > ul > li.on > a{color: #1a3a8c;}
+    .divMenuList > ul > li > div > ul > li > a:hover{color: #334abd; }
+    .divMenuList > ul > li > div > ul > li.on > a{color: #334abd;}
+    .divMenuList > ul > li > div > ul > li.on > a::after{background: #334abd;}
+    .divMenuList > ul > li > div > ul > li > ul > li > a:hover{color: #334abd;}
+    .divMenuList > ul > li > div > ul > li > ul > li > a:hover::after{background: #334abd;}
+}
+
+/* Search */
+#keywordRanking .keywordList ul li span{background: linear-gradient(125deg,#1bc5d0 , #024098 );}
+#keywordRanking .keywordAll ul li span{background: linear-gradient(125deg,#1bc5d0 , #024098 );}
+
+#divSearch .searchBox .searchSelect{background-color: #334abd;}
+#divSearch .searchBox .searchInput{background: #334abd;}
+#divSearch .detailSearch .detailSearchBtn{background: #00136f;}
+
+/* quickMenu */
+.quickMenuW .quickMenu ul li a::after{background: linear-gradient(150deg,#334abd ,#024098, #00136f );}
+
+/* notice */
+.notice >  ul > li .noticeContent .noticeFirst .noticeFirstDate{border: 1px solid rgba(30, 35, 128, 0.5);}
+.notice >  ul > li .noticeContent .noticeFirst .noticeFirstDate span{color: #364ea6;}
+.notice >  ul > li .noticeContent .noticeFirst .noticeFirstDate strong{color: #364ea6;}
+.notice >  ul > li .noticeContent > ul li:hover{border: 1px solid #797cba;}
+.notice > ul > li .noticeContent .questionList li span{ color: #364ea6;}
+.notice > ul > li .noticeContent > ul li .mark{background: #364ea6;}
+
+/* schedule */
+.schedule .scheduleMonth > ul{background: linear-gradient(145deg,#0387c2 , #364ea6 );}
+.schedule .scheduleListW .scheduleList ul li a:hover{border: 1px solid #364ea6;}
+.schedule .scheduleListW > a::before{background: linear-gradient(145deg,#0387c2 , #364ea6 );}
+.schedule .scheduleListW .scheduleList ul li a:hover .scheduleDate{color: #364ea6;}
+
+/* bookList */
+.tabListW .bookListW .bookList div a{ border-top: 2px solid #537eae;}
+.tabListW .bookListW .bookList div a:hover .bookInfo{background: #335199;}
+.collectionList .bookListW .bookList div a:hover{border: 1px solid #797cba;}
+
+/* 이용안내 */
+.guideWrap .guide2 .top .tit{color: #01b1eb;}
+.openHourList > li::after{background: #334abd;}
+.openHourList > li > ul.libraryList li{color: #334abd}
+.guide2Table tr th{color: #01b1eb; border-top: 2px solid #01b1eb; border-bottom: 1px solid #01b1eb;}
+
+/* footer */
+.footerMenu2 .count ul li.today {color: #6788ff; border-bottom: 1px solid #5265ad;}
+.footerMenu2 .count ul li.today span{color: #6788ff;}
+
+/* select */
+::-moz-selection{background-color:#334abd;color:#fff; text-shadow: 1px 1px #000;}
+::-webkit-selection{background-color:#334abd;color:#fff; text-shadow: 1px 1px #000;}
+::selection{background-color:#334abd;color:#fff; text-shadow: 1px 1px #000;}
+
+/* -------------------- */
+/* sub Template */
+/* Top Menu */
+.subTemplate{background: #334abd;}
+.subTemplate .header1 .globalMenu > ul > li.profile .myMenuBtn{background-color: #00136f;}
+.subTemplate #divTopMenu > ul > li.on > a{color: #fff;}
+.subTemplate #divTopMenu > ul > li > a:hover{color: #fff;}
+.subTemplate #divTopMenu > ul > li > a::before{background:#fff;}
+
+/* Search */
+.searchInput input[type="text"]{color: #334abd;}
+.searchWords .searchKeyword .keyword{color: #334abd;}
+.atoz a.selected{background: #00136f; border: 1px solid #00136f;}
+.topicCont .subjectDepth01 > li.on .topicTit1{color: #334abd;}
+.topicCont .subjectDepth01 > li > .subjectDepth02 > li.on{background: #334abd;}
+.topicCont .subjectDepth01 > li > .subjectDepth02 > li .subjectDepth03 li.on a, .topicCont .subjectDepth01 > li > .subjectDepth02 > li .subjectDepth03 li a:hover{color: #334abd;}
+.topicCont .subjectDepth01 > li > .subjectDepth02 > li .subjectDepth03 li.on a::after, .topicCont .subjectDepth01 > li > .subjectDepth02 > li .subjectDepth03 li a:hover::after{background: #334abd;}
+.noResult1 span{color: #334abd;}
+
+/* Search List */
+.searchCnt strong{color: #334abd;}
+
+/* paging */
+.paging > span span{color: #334abd;}
+
+/* pacet */
+.facetList1 > ul li .addDelete{background-color: #334abd;}
+.sortingBtn{background-color: #334abd;}
+.facet::after{background-color: #334abd;}
+.facetNav{background-color: #334abd;}
+
+/* Button */
+.btnType1{color: #334abd !important; border: 1px solid #334abd;}
+.btnType2{background: #334abd; border: 1px solid #334abd;}
+.btnType3{color: #334abd !important; border: 1px solid #334abd;}
+.btnType4{background: #00136f;}
+.btnType5{background: #00136f;}
+.btnType6.on{background: #334abd;}
+.btnType7{color: #334abd !important; border: 1px solid #334abd;}
+.btnType8{color: #334abd !important; border: 1px solid #334abd;}
+.btnType9{background: #334abd; border: 1px solid #334abd;}
+.btnType10{background: #334abd;}
+.resultList > li .listInfoW .bookInfo .dataInfo .infoBtn:hover{background: #334abd; border: 1px solid #334abd; }
+
+/* TabMenu */
+#divTabMenu ul li.selected a{background: #334abd;}
+
+/* 검색상세 */
+.profileHeader h3{color: #334abd;}
+.profileHeader .qrBtn{background: #334abd;}
+.briefInfoDetail table tr td a{color: #334abd;}
+.searchLink .searchLinkBtn > li.marcView a{color: #334abd;}
+.searchInfo.on .searchHeader h3 a{color: #334abd;}
+.briefInfoDetail table tr td a.urlGoto{background: #00136f;}
+a.moreView:hover{color: #334abd;}
+
+/* main Color */
+.col10{color: #334abd !important;}
+
+/* total Search */
+.totalSearchResult .division .totalSearchTitle h3 span strong{color: #334abd;}
+
+/* popup */
+.popupTop2{background: #334abd;}
+.layerPopup h3{background: #334abd;}
+.handlerContentW h3{background: #334abd;}
+.popupRoomContent .popupContentHeader, .popupRoomContent.on .popupContentHeader{background-color: #334abd;}
+.bookingTable tr td:nth-of-type(1)::after{background: #334abd;}
+
+/* facility */
+.tabs .tabList li.on a{color: #334abd; border-bottom: 3px solid #334abd;}
+.resList > ul > li.ongoing .type{background-color: #334abd;}
+.resList > ul > li .info p.date{color: #334abd;}
+
+/* list */
+.listTitle1{color: #00136f;}
+
+/* 자동완성 */
+.autoComW .autoComContent ul li a span{color: #334abd;}
+
+/* Login */
+.loginBtn1{background: #334abd;}
+.loginBtn2{border: 1px solid #334abd; color: #334abd !important;}
+.loginBtn3{background: #00136f;}
+.loginBtn4{color: #00136f !important; border: 1px solid #00136f;}
+.loginW .wrap > p .loginGoto{color: #334abd;}
+.loginW .wrap .loginTit{color: #334abd;}
+.loginW .loginContent .msg .msgFind{color: #334abd;}
+.loginW .loginContent .loginType li.on a{background: #00136f;}
+
+/* thesis */
+.subTab li.on a{color: #334abd; border-bottom: 2px solid #334abd;}
+.thesisStep ul li.on span{color: #334abd;}
+
+/* 게시판 */
+.noticeList ul li .type{background: #334abd;}
+.boardDetail .boardInfo .type{background: #334abd;}
+.boardDetail .boardInfo .disclosure{color: #334abd;}
+.calendarTop .daySelect .daySelectBtn.on{color: #334abd;}
+
+/* -------------------- */

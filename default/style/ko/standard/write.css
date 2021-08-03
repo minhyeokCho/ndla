@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* write */
+.writeTable{border:1px solid #e3e3e3; border-radius: 3px;}
+.writeTable th{width:20%; padding: 11px 65px 11px 0; background: #f3f3f3; border-bottom: 1px solid #e8ebf3; color: #555555; font-size:16px; text-align: right; vertical-align: middle;}
+.writeTable th label{position: relative; font-size: 16px;}
+.writeTable td{width:80%; padding: 11px 40px 11px 40px; border-bottom: 1px solid #e8ebf3; vertical-align: middle; color: #333; word-break: break-word;}
+.writeTable tr:last-of-type td, .writeTable tr:last-of-type th{border-bottom: none;}
+
+@media screen and (max-width:1024px){
+    .writeTable th{padding: 18px 25px 18px 10px; text-align: center;}
+}
+@media screen and (max-width:719px){
+	.writeTable th{width: 30%;}
+	.writeTable td{width: 70%; padding: 11px;}
+}
+
+/* option */
+.exam1{color: #384655; margin-top: 10px;}
+.exam2{color: #e23d3f; margin-top: 10px;}
+
