@@ -284,7 +284,7 @@ option{font-family:NotoSans;}
 .libraryInfo ul li {display: inline-block;}
 .libraryInfo ul li:not(:last-of-type){margin-right: 20px;}
 .libraryInfo ul li a{display: inline-block; color: #8f8f8f; font-size: 14px; font-family:NotoSansM, sans-serif;}
-.libraryInfo address{color: #7f7f86; font-size: 13px; margin-top: 10px; line-height: 20px;}
+.libraryInfo address{display: none; color: #7f7f86; font-size: 13px; margin-top: 10px; line-height: 20px;}
 .libraryInfo .copyright{color: #939398; font-size: 13px;}
 
 .footerMenuRight{float: right;}
